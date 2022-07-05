@@ -1,5 +1,6 @@
 .logo{
     height:104px;
+    width:100%;
 }
 .m-center{
     width:fit-content;
@@ -17,8 +18,10 @@
     text-decoration: none;
     color: black;
     width: 100%;
-    padding: 0 6px;
-    
+    padding: 4px 6px 0 6px;
+}
+.nav a{
+    font-size:14px;
 }
 .sec-nav{
     background: white;
