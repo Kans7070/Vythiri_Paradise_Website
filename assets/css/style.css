@@ -9,6 +9,8 @@
 .nav-holder{
     position: fixed;
     width: 100%;
+    z-index: 1;
+    top: 0;
 }
 .nav{
     background: white;
@@ -37,4 +39,7 @@
     text-decoration: none;
     color: white;
     margin: 0px 12px;
+}
+.body-holder{
+    margin-top:160px
 }
