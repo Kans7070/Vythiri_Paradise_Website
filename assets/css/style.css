@@ -41,5 +41,17 @@
     margin: 0px 12px;
 }
 .body-holder{
-    margin-top:160px
+    margin:160px 0 64px 0;
+}
+.bgc{
+    background: #5ba515;
+    color: white;
+    height: 100%;
+    margin:0px auto;
+}
+.book_button_holder{
+    height: 64px;
+    position: fixed;
+    bottom:0;
+    
 }
