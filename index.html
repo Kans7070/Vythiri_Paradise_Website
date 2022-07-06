@@ -43,6 +43,9 @@
                 <div>
                     <a class="link-dark" href="tel: 1234567890">1234567890</a>
                 </div>
+                <div>
+                    <a class="link-dark" href="tel: 1234567890">1234567890</a>
+                </div>
 
             </div>
         </div>
@@ -69,7 +72,7 @@
     <div class="body-holder">
         <div class="padded" id="home"></div>
         <!-- Section: Home -->
-        <div class="container" >
+        <div class="container">
             <div class="col-12">
                 <img class="w-100 img-fluid" src="assets/images/banner.jpg" />
 
@@ -103,37 +106,27 @@
                             <!--Grid column-->
                             <div class="col-md-6">
                                 <div class="md-form mb-2">
-                                    <input type="text" id="name" name="name" class="form-control" placeholder="Name" required>
-                                    
+                                    <input type="text" id="name" name="name" class="form-control" placeholder="Name"
+                                        required>
+
                                 </div>
                             </div>
                             <!--Grid column-->
 
                             <!--Grid column-->
                             <div class="col-md-6">
-                                <div class="md-form mb-2">
-                                    <input type="text" id="email" name="email" class="form-control" placeholder="Email" required>
-                                    
+                                <div class="md-form">
+                                    <input type="text" id="phone" name="Phone" rows="2" placeholder="Phone"
+                                        oninput="this.value = this.value.replace(/[^0-9]/g, '').replace(/(\..*)\./g, '$1');"
+                                        maxlength="10" class="form-control md-textarea" required />
+
                                 </div>
                             </div>
                             <!--Grid column-->
 
                         </div>
                         <!--Grid row-->
-                        <div class="row mb-2">
 
-                            <!--Grid column-->
-                            <div class="col-md-6">
-
-                                <div class="md-form">
-                                    <input type="text" id="phone" name="phone" rows="2" placeholder="phone"
-                                        class="form-control md-textarea" required/>
-                                    
-                                </div>
-
-                            </div>
-
-                        </div>
 
                         <!--Grid row-->
                         <div class="row mb-2">
@@ -144,7 +137,7 @@
                                 <div class="md-form">
                                     <textarea type="text" id="message" name="message" rows="2"
                                         class="form-control md-textarea" required placeholder="Message"></textarea>
-                                    
+
                                 </div>
 
                             </div>
@@ -177,7 +170,7 @@
                             <a class="link-dark" href="mailto:Vythriparadiseinfo@gmail.com">
                                 <i class="fas fa-envelope mt-4 fa-2x"></i>
                             </a>
-                            
+
                         </li>
                     </ul>
                 </div>
@@ -215,7 +208,7 @@
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/ec56314612.js" crossorigin="anonymous"></script>
-    
+
     <!-- script ends here/ -->
 
 
